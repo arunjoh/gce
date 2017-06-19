@@ -2,7 +2,7 @@ FROM openjdk
 
 WORKDIR /opt
 
-ADD target/stackoverflow-apis-fat.jar /opt/target/stackoverflow-apis-fat.jar
+ADD stackoverflow-apis-fat.jar /opt/target/stackoverflow-apis-fat.jar
 
 RUN chmod a+rwx target/stackoverflow-apis-fat.jar
 
